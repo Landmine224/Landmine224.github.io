@@ -1,0 +1,102 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Tiems", sans-serif;
+  padding: 5px 25px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  text-align: center;
+}
+h2 {
+  text-align: left;
+}
+.navClass > ul {
+  background-color:#bfbdbd;
+  color:#000000;
+
+}
+.navClass > ul > li {
+  list-style-type:none;
+  display: inline-block;
+  padding: 5px 25px;
+  position:relative;
+}
+.navClass > ul > li:hover {
+  background-color:#9b9b9b
+}
+.sub-menu {
+  display:none;
+  list-style-type:none;
+  position:absolute;
+  padding-left:0px;
+  width:125px;
+  margin-left:-25px;
+  background-color:#9b9b9b
+}
+ul.sub-menu li {
+  padding-left:25px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.navClass li:hover .sub-menu{
+  display:block;
+}
+ul.sub-menu li:hover {
+  background-color:#bfbdbd;
+}
+.third-menu li {
+  padding-left:0px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.third-menu {
+  display:none;
+  list-style-type:none;
+  position:absolute;
+  padding-left:0px;
+  width:125px;
+  margin-left:25px;
+  background-color:#9b9b9b	
+}
+.sub-menu li:hover .third-menu {
+  display:block;
+}
+.fourth-menu li {
+  padding-left:0px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.fourth-menu {
+  display:none;
+  list-style-type:none;
+  position:absolute;
+  padding-left:0px;
+  width:125px;
+  margin-left:25px;
+  background-color:#9b9b9b
+}
+.third-menu li:hover .fourth-menu {
+  display:block;
+}
+
+.dropdownLink {
+  text-decoration:none;
+  color:#000000;
+}
+#body {
+  height:100px;
+}
+table, th, td {
+  border:1px solid black;
+}
+table {
+  background-color: white;
+}
