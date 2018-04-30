@@ -3,100 +3,106 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 body {
-  background-color: white;
-  font-family: "Tiems", sans-serif;
-  padding: 5px 25px;
-  margin: 0;
-  color: #444;
+    background-color: white;
+    font-family: "Tiems", sans-serif;
+    padding: 5px 25px;
+    margin: 0;
+    color: #444;
 }
 
 h1 {
-  font-family: "Merriweather", serif;
-  font-size: 32px;
-  text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    text-align: center;
 }
 h2 {
-  text-align: left;
+    text-align: left;
 }
 .navClass > ul {
-  background-color:#bfbdbd;
-  color:#000000;
+    background-color:#bfbdbd;
+    color:#000000;
 
 }
 .navClass > ul > li {
-  list-style-type:none;
-  display: inline-block;
-  padding: 5px 25px;
-  position:relative;
+    list-style-type:none;
+    display: inline-block;
+    padding: 5px 25px;
+    position:relative;
 }
 .navClass > ul > li:hover {
-  background-color:#9b9b9b
+    background-color:#9b9b9b
 }
 .sub-menu {
-  display:none;
-  list-style-type:none;
-  position:absolute;
-  padding-left:0px;
-  width:125px;
-  margin-left:-25px;
-  background-color:#9b9b9b
+    display:none;
+    list-style-type:none;
+    position:absolute;
+    padding-left:0px;
+    width:125px;
+    margin-left:-25px;
+    background-color:#9b9b9b
 }
 ul.sub-menu li {
-  padding-left:25px;
-  padding-top:5px;
-  padding-bottom:5px;
+    padding-left:25px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 .navClass li:hover .sub-menu{
-  display:block;
+    display:block;
 }
 ul.sub-menu li:hover {
-  background-color:#bfbdbd;
+    background-color:#bfbdbd;
 }
 .third-menu li {
-  padding-left:0px;
-  padding-top:5px;
-  padding-bottom:5px;
+    padding-left:0px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 .third-menu {
-  display:none;
-  list-style-type:none;
-  position:absolute;
-  padding-left:0px;
-  width:125px;
-  margin-left:25px;
-  background-color:#9b9b9b	
+    display:none;
+    list-style-type:none;
+    position:absolute;
+    padding-left:0px;
+    width:125px;
+    margin-left:25px;
+    background-color:#9b9b9b	
 }
 .sub-menu li:hover .third-menu {
-  display:block;
+    display:block;
 }
 .fourth-menu li {
-  padding-left:0px;
-  padding-top:5px;
-  padding-bottom:5px;
+    padding-left:0px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 .fourth-menu {
-  display:none;
-  list-style-type:none;
-  position:absolute;
-  padding-left:0px;
-  width:125px;
-  margin-left:25px;
-  background-color:#9b9b9b
+    display:none;
+    list-style-type:none;
+    position:absolute;
+    padding-left:0px;
+    width:125px;
+    margin-left:25px;
+    background-color:#9b9b9b
 }
 .third-menu li:hover .fourth-menu {
-  display:block;
+    display:block;
 }
 
 .dropdownLink {
-  text-decoration:none;
-  color:#000000;
+    text-decoration:none;
+    color:#000000;
 }
 #body {
-  height:100px;
+    height:100px;
 }
 table, th, td {
-  border:1px solid black;
+    border:1px solid black;
 }
 table {
-  background-color: white;
+    background-color: white;
+}
+.a{
+    list-style-type: lower-alpha;
+}
+.num{
+    list-style-type: decimal;
 }
